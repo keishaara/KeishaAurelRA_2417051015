@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prak3web</title>
+</head>
+<body>
+    <header style="background-color: rgb(220, 238, 229); padding: 10px;">
+        <h2>Header</h2>
+        <nav>
+            <a href="prak3web.html">Home</a>
+            <a href="#section1">Section 1</a>
+            <a href="#section2">Section 2</a>
+            <a href="#">Home</a>
+        </nav>
+    </header>
+    <section id="section1" style="background-color: rgb(183, 213, 219); height: 20vh;">
+        <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nisi mollitia doloremque vero, corporis maiores unde eos distinctio. Illo nobis perferendis provident tempore quaerat soluta sit autem sed. Eaque, consequatur!
+        </article>
+        <aside>
+            <details>
+                <summary>
+                    Jurusan
+                </summary>
+                <ul>
+                    <li>Ilmu Komputer</li>
+                    <li>Teknik Informatika</li>
+                    <li>Sistem Informasi</li>
+                </ul>
+            </details>
+        </aside>
+    </section>
+
+    <section id="section2" style="background-color: rgb(172, 234, 197); height: auto;">
+        
+        
+        <form action="#" method="push" target="_self">
+            <fieldset>
+            <legend style="text-align: center;">Formulir Data Diri</legend>
+
+            <fieldset>
+            <label for="username">Nama : </label>
+            <input type="text" id="username" name="username">
+            <br><br>
+
+            <label for="npm">NPM : </label>
+            <input type="number" name="npm" id="npm"> 
+            <br><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+            <br><br>
+
+            <label for="jk">Jenis Kelamin</label>
+            <br>
+            <input type="radio" name="jk" id="lk" value="Laki-laki">
+            <label for="lk">Laki-laki</label>
+            <br>
+
+            <input type="radio" name="jk" id="pr" value="Perempuan">
+            <label for="pr">Perempuan</label>
+            <br><br>
+
+            <label for="">Hobi</label>
+            <br>
+            <input type="checkbox" name="hobi[]" id="hobi1" value="Membaca">
+            <label for="hobi1">Membaca</label><br>
+            <input type="checkbox" name="hobi[]" id="hobi2" value="Coding">
+            <label for="hobi1">Coding</label><br>
+            <input type="checkbox" name="hobi[]" id="hobi3" value="Menulis">
+            <label for="hobi1">Menulis</label><br><br>
+
+            
+            <label for="tanggal">Tanggal</label>
+            <input type="date" name="tanggal" id="tanggal"><br><br>
+            
+            <label for="waktu">Waktu</label>
+            <input type="time" name="waktu" id="waktu"><br><br>
+            
+            <input type="hidden" name="role" value="Mahasiswa">
+            <input type="hidden" name="jurusan" value="Ilmu Komputer">
+            
+            <label for="upload">Upload file</label>
+            <input type="file" name="upload" id="upload"><br><br>
+
+            <label for="search">Cari Data</label>
+            <input type="search" id="search" name="search"> 
+
+            <button>Submit</button>
+            </fieldset>
+            </fieldset>
+        </form>
+    </section>
+    
+    <footer>Ilmu Komputer</footer>
+</body>
+</html>
